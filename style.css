@@ -1,0 +1,247 @@
+/* body */
+body, button {
+	font-family: 'Raleway', sans-serif;
+}
+
+button {
+	padding: 2%;
+	border-radius: 10%;
+	font-weight: 600;
+	color: #242423;
+}
+
+/* navigation */
+nav {
+/* 	border: 1px solid red; */
+	padding: 2%;
+/* 	margin-bottom: 0; */
+	display: flex;
+	justify-content: space-around;
+	background-color: #ff6b6b;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #f7fff7;
+}
+
+nav a:hover {
+	color: #f7d1cd;
+}
+
+/* header */
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	background-image: url('https://images.unsplash.com/photo-1634502795504-f0f685b62d8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80');
+/* 	margin-top: 0; */
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+	margin-top: 2%;
+}
+
+.text {
+	font-size: 25px;
+	text-align: center;
+	color: #faf9f9;
+}
+
+/* about section */
+.about {
+/* 	border: 1px solid red; */
+	width: 100%;
+	margin-top: 2%;
+	display:flex;
+	justify-content: space-around;
+	border-bottom: 2px dashed #eddcd2;
+}
+
+.about-box {
+/* 	border: 1px solid purple; */
+	width: 27%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.about-box img{
+	height: 45vh;
+	width: 100%;
+}
+
+.about-me button {
+	background-color: #ffc4d6;
+}
+
+.about-me button:hover {
+	background-color: #4ecdc4;
+	color: white;
+}
+
+.skills button {
+	background-color: #ffd60a;
+}
+.skills button:hover {
+	background-color: #ffc4d6;
+}
+
+.projects button {
+	background-color: #4ecdc4;
+}
+.projects button:hover {
+	background-color: #ffd60a;
+}
+
+/* project columns*/
+.column {
+	width: 100%;
+	margin-top: 4%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.column-box {
+	width: 25%;
+	text-align: center;
+	border-bottom: 2px dashed #eddcd2;
+}
+
+.column-box img{
+	height: 30vh;
+	width: 90%;
+}
+
+/* services */
+#services {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40vh;
+	width: 100%;
+	margin-top: 5%;
+	background-image: url('https://images.unsplash.com/photo-1607438028766-5f2405849d84?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.services-text{
+	width: 30%;
+	padding-top: 5%;
+	text-align: center;
+	color: white;
+}
+
+.services-text h2 {
+	font-size: 30px;
+}
+
+/* boxes */
+.boxes {
+/* 	border-bottom: 3px dashed #eddcd2; */
+	width: 100%;
+	margin-top: 5%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.boxOne {
+/* 	border: 1px solid pink; */
+	padding: 2%;
+	width:15%;
+}
+
+.boxOne img{
+	height: 40vh;
+	width: 100%;
+}
+
+.boxtwo button {
+	margin-left: 30%;
+	background-color: #1b4332;
+	color: #e9ecef;
+	border-radius: 15%;
+}
+
+.boxtwo button:hover {
+	background-color: #e9c46a;	
+	color: #293241;
+}
+
+.boxfour button {
+	margin-left: 40%;
+	padding: 2% 5%;
+	background-color: #14213d;
+	color: #e5e5e5;
+	border-radius: 17%;
+}
+
+.boxfour button:hover {
+	background-color: #ffd166;
+	color: #0b090a;
+}
+
+.before-image {
+margin-left: 15%;
+width: 70%;
+height: 30vh;
+	background-image: url('https://images.unsplash.com/photo-1613310023042-ad79320c00ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.big-column {
+/* 	border: 1px solid red; */
+	width: 70%;
+	margin-left: 15%;
+}
+
+.big-column h2 {
+	font-size: 20px;
+	padding-left: 5%;
+	color: #001d3d;
+}
+
+.big-column p {
+	padding: 1% 5%;
+	color: #001d3d;
+}
+
+/* contact info */
+#contact {
+	margin-top: 2%;
+	margin-bottom: 0;
+	background-color: #ccdbfd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact img {
+	width: 15%;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 2%;
+	margin-right: 15%;
+}
+
+.info a {
+	text-decoration: none;
+	color: #ce4257;
+}
+
+.copyright {
+	padding: 0.1% 0 0.1% 80%;
+	background-color: #ffa6c1;
+	color: #540d6e;
+}
