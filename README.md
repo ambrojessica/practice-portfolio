@@ -2,4 +2,4 @@
 
 ## Practicing HTML and CSS skills. ##
 
-![screenshot of website](./images/Screenshot (42).png)
+#### Click the link on the right to see my site ####
