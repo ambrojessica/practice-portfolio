@@ -32,7 +32,8 @@
 					<img src="https://images.unsplash.com/photo-1536329583941-14287ec6fc4e?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80" alt="pink background with notebook"/>
 			<h2>About Me</h2>
 			<p>My name is Jessica Ambrocio. I am 21 years old. My hobbies include makeup, music and coding. I love to do makeup because it is a work of art. I love to read because I get to imagine what the author writes. Lastly, I love to code because it is like a puzzle to me.</p>
-				<button type="button">Read More</button>
+				<button id="myBtn" type="button">Read More</button>
+				<p id="test"></p>
 				</div>
 			</div>
 			
@@ -128,5 +129,17 @@
 		<div class="copyright">
 			<p>Copyright Jessica Ambrocio 2021</p>
 		</div>
+
+		<script>
+			const test = document.getElementById("myBtn");
+
+			function testingFun () {
+				document.getElementById("test").innerHTML = "Oops";
+			}
+
+			test.addEventListener("click", testingFun, true);
+			test.removeEventListener("click", testingFun, false);
+
+		</script>
   </body>
 </html>
