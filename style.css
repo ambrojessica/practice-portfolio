@@ -130,7 +130,6 @@ nav a:hover {
 
 .services-text{
 	width: 30%;
-	padding-top: 5%;
 	text-align: center;
 	color: white;
 }
@@ -244,4 +243,71 @@ height: 30vh;
 	padding: 0.1% 0 0.1% 80%;
 	background-color: #ffa6c1;
 	color: #540d6e;
+}
+
+/* mobile responsive at 500px */
+@media (max-width: 500px) {
+	nav a {
+		font-size: 15px;
+	}
+	.text {
+		font-size: 18px;
+	}
+	/* about section */
+	.about {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.about-box {
+		width: 27em;
+	}
+
+	/*project pieces */
+	.column {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.column-box {
+		margin-top: 2em;
+		width: 23em;
+	}
+
+	/*services & boxes */
+	.services-text {
+		width: 20em;
+	}
+
+	.boxes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.boxOne, .boxtwo, .boxthree, .boxfour {
+		width: 23em;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	.boxOne button {
+		margin-left: 0;
+	}
+
+	/* column and footer */
+	.big-column {
+		text-align: center;
+	}
+
+	.copyright {
+		border: 1px solid black;
+		font-size: 15px;
+		text-align: center;
+	}
 }
