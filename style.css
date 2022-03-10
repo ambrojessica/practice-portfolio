@@ -81,19 +81,12 @@ nav a:hover {
 	color: white;
 }
 
-.skills button {
+/* .skills button {
 	background-color: #ffd60a;
 }
 .skills button:hover {
 	background-color: #ffc4d6;
-}
-
-.projects button {
-	background-color: #4ecdc4;
-}
-.projects button:hover {
-	background-color: #ffd60a;
-}
+} */
 
 /* project columns*/
 .column {

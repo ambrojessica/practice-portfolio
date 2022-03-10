@@ -42,7 +42,7 @@
 				<img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80" alt="yellow background with tablet and keyboard" />
 				<h2>Skills</h2>
 				<p>My skills include: JavaScript, HTML, CSS, Node, React, Python, Redux, SQL. I started my coding journey on FreeCodeCamp. I've been hooked ever since! You can learn about my services and how to contact me down below!</p>
-				<button type="button">See More</button>
+				<!-- <button type="button">See More</button> -->
 				</div>
 			</div>
 			<div class="about-box three">
@@ -50,7 +50,7 @@
 					<img src="https://images.unsplash.com/photo-1624466551208-4fcd504cc9c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" />
 				<h2>Projects</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<button type="button">See Details</button>				</div>
+				</div>
 			</div>
 		</div>
 		</section>
@@ -90,7 +90,8 @@
 				<img src="https://images.unsplash.com/photo-1634549667619-bbbdb4b098a9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" alt="fall trail" />
 				<h2>Box Two</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra urna vel purus ultricies volutpat. Quisque fringilla sapien porta dolor rutrum imperdiet.</p>
-				<button type="button">Read More</button>
+				<button id="buttonDos" type="button">Read More</button>
+				<div id="test2"></div>
 				</div>
 			</div>
 			<div class="boxOne">
@@ -105,7 +106,7 @@
 				<img src="https://images.unsplash.com/photo-1634482900402-576b9dcdbfa5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=736&q=80" alt="nyc sky view" />
 				<h2>Box Four</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra urna vel purus ultricies volutpat. Quisque fringilla sapien porta dolor rutrum imperdiet.</p>
-				<button type="button">Details</button>
+				<button onclick="alerting()" type="button">Details</button>
 				</div>
 			</div>
 		</section>
@@ -131,14 +132,28 @@
 		</div>
 
 		<script>
+			//FIRST READ MORE BUTTON
 			const test = document.getElementById("myBtn");
 
 			function testingFun () {
-				document.getElementById("test").innerHTML = "Oops";
+				document.getElementById("test").innerHTML = "Follow me on twitter and get to know me: @ambrojessica";
 			}
 
 			test.addEventListener("click", testingFun, true);
-			test.removeEventListener("click", testingFun, false);
+
+			//SECOND READ MORE BUTTON
+			const test2 = document.getElementById("buttonDos");
+
+			function testing2 () {
+				document.getElementById("test2").innerHTML = "oops";
+			}
+
+			test2.addEventListener("click", testing2, true);
+			
+			//THIRD BUTTON - DETAILS
+			function alerting() {
+				alert("no more details, sorry!");
+			}
 
 		</script>
   </body>
